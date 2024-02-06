@@ -5,4 +5,23 @@ h1 {
 
 p {
     text-align: center;
+    font-size: large;
+}
+table {
+    text-align: center;
+    width: 100%;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+th{
+    background-color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    color: white;
+}
+th, td{
+    border-bottom: 1px solid gray
+}
+@media screen and (max-width: 600px) {
+    
 }
